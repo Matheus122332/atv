@@ -1,0 +1,140 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+@font-face{
+    font-family: "Arroz";
+    src: url("Material_Atividad/fontes/idroid.otf");
+}
+body{
+    background-color: rgb(150, 240, 153);
+}
+header{
+    position: absolute;
+    color: white;
+    background:linear-gradient(to top, rgba(0, 0, 0, 0.26), rgb(118, 202, 79)) ;
+    width: 100%;
+    min-width: 248px;
+    max-width: 100%;
+    height: 14em;
+    box-shadow: 2px 2px 2px black;
+    text-align: center;
+}
+header>div>h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22pt;
+    position: relative;
+    color: white;
+    top: 30px;
+    
+}
+header>div>p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16pt;
+    position: relative;
+    color: white;
+    top: 80px;
+}
+header>div>nav{
+    position: absolute;
+    top: 12.2em;
+}
+header>div>nav>a{
+    font-size: 16pt;
+    color: white !important;
+    padding: 1px 10px;
+    text-decoration: none;
+}
+main>div{
+    position: absolute;
+    color: black;
+    background: white;
+    width: 150vh;
+    min-width: 248px;
+    max-width: 1000px;
+    height: 150em;
+    padding: 20px;
+    top: 226px;
+    margin-left: 22.5%;
+    box-shadow: 2px 2px 2px 2px black;
+    text-align: justify;
+}
+main>div>h1{
+    position: absolute;
+    font-family: "Arroz";
+    font-size: 2em;
+    left: 15px;
+    text-align: left;
+    color: green;
+
+}
+#h2-1{
+    position: static;
+    font-family: "Arroz";
+    font-size: 1.6em;
+    left: 15px;
+    text-align: left;
+    background: linear-gradient(to top,rgba(0, 128, 0, 0.404), rgba(255, 255, 255, 0.459));
+    color: green;
+}
+main>div>picture>img{
+    position: absolute;
+    top: 24%;
+    left: 42%;
+    transform: translate(-40%,-42%);
+}
+main>div>picture>source{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#p1{
+    position: absolute;
+    font-size: 16pt;
+    margin-right: 15px;
+}
+#p2{
+    position: absolute;
+    font-size: 16pt;
+    margin-right: 15px;
+}
+#p3{
+    position: absolute;
+    font-size: 16pt;
+    margin-right: 15px;
+    top: 45%;
+}
+#h2-2{
+    position: static;
+    font-family: "Arroz";
+    font-size: 1.6em;
+    margin-top: 65%;
+    left: 15px;
+    text-align: left;
+    background: linear-gradient(to top,rgba(0, 128, 0, 0.404), rgba(255, 255, 255, 0.459));
+    color: green;
+}
+#p4{
+    position: absolute;
+    font-size: 16pt;
+    margin-right: 15px;
+}
+#img-p{
+    position: absolute;
+    top: 20px;
+}
+#img2{
+    position: absolute;
+    left: 10%;
+}
+#p5{
+    position: absolute;
+    font-size: 16pt;
+    margin-right: 15px;
+    top: 82%;
+}
+#img3{
+    position: absolute;
+    top:95%;
+}
